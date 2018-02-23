@@ -14,7 +14,7 @@ nav{
 .brand-logo{
 	font-weight: 800;
 	font-family: 'Audiowide', cursive;
-	
+
 }
 .header{
 	font-weight: 700
@@ -23,8 +23,8 @@ nav{
 h5{
 	font-weight: 600
 }
-#about{
-	height: 80vh
+#about, #skills, #education, #portfolio, #experience{
+	min-height: 80vh
 }
 .social:hover{
 	background-color: teal;
@@ -43,15 +43,25 @@ h5{
 	margin: 1%;
 	border-radius: 0!important;
 	padding: 1%;
-/*	transition: width 6s!important;*/
+	/*	transition: width 6s!important;*/
 }
 
 #education .card-title{
 	font-size: 20px
 }
+#portfolio .card-content{
+	font-size: 20px;
+	z-index: 1;
+	background-color: #fff;
+}
 .card .card-content{
 	line-height: 1.5rem;
 	padding: 15px
+}
+
+#portfolio .card.small .card-image img{
+	width: 100%;
+	height: 100%;
 }
 footer {
 	flex: 1 0 auto;
