@@ -5,8 +5,11 @@ body {
 }
 
 nav{
-	height: 80px;
+	height: 70px;
 	width: 100%
+}
+.sidenav-trigger{
+	color: #444
 }
 .brand-logo{
 	font-weight: 800;
@@ -27,6 +30,13 @@ h5{
 	background-color: teal;
 }
 
+.skills, .education{
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	color: #fafafa;
+}
+
 .img{
 	height: 20%!important;
 	width: 20%!important;
@@ -36,13 +46,19 @@ h5{
 /*	transition: width 6s!important;*/
 }
 
-
+#education .card-title{
+	font-size: 20px
+}
+.card .card-content{
+	line-height: 1.5rem;
+	padding: 15px
+}
 footer {
 	flex: 1 0 auto;
 }
 nav ul a,
 nav .brand-logo {
-	color: #444;
+	color: #444!important;
 }
 
 p {
