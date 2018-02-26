@@ -23,7 +23,7 @@ nav{
 h5{
 	font-weight: 600
 }
-#about, #skills, #education, #portfolio, #experience{
+#about, #education, #portfolio, #experience{
 	min-height: 80vh
 }
 .social:hover{
@@ -38,7 +38,7 @@ h5{
 }
 
 .img{
-	height: 20%!important;
+	height: auto;
 	width: 20%!important;
 	margin: 1%;
 	border-radius: 0!important;
