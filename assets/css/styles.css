@@ -46,6 +46,20 @@ h5{
 	/*	transition: width 6s!important;*/
 }
 
+#experience .card-image{
+    height: 80%;
+    top: 10%
+}
+
+
+
+experience .card-title{
+	font-size: 17px
+}
+#experience .card-content{
+	z-index: 1;
+}
+
 #education .card-title{
 	font-size: 20px
 }
